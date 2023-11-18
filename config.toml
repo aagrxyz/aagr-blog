@@ -1,3 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://aagr.xyz/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "AAGR Blog"
+theme = 'ananke'
