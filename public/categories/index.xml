@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on AAGR Blog</title>
+    <title>Categories on aagr</title>
     <link>https://aagr.xyz/categories/</link>
-    <description>Recent content in Categories on AAGR Blog</description>
+    <description>Recent content in Categories on aagr</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://aagr.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language>
+    <copyright>Copyright © 2023-2024, Aman Agrawal; all rights reserved.</copyright>
+    <atom:link href="https://aagr.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
