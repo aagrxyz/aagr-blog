@@ -52,7 +52,7 @@
   />
 
   
-  <title>Cocktails, Friends, Laughter - aagr</title>
+  <title>How My Raspberry Pi Blog Stays Online? - aagr</title>
 
   
   <meta name="theme-color" />
@@ -61,8 +61,10 @@
   
   
   
-  <meta name="description" content="Okay, buckle up, because I have a tale to tell. I, someone who usually orders the simplest possible drink at a bar, recently decided to throw caution to the wind and host a cocktail party. Armed with a shaker, some questionable recipes, and a healthy dose of hope, I embarked on a journey of amateur mixology.
-Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the results may have been more influenced by a steadily-increasing blood alcohol content than genuine cocktail mastery, but who am I to complain?" />
+  <meta name="description" content="I recently implemented some behind-the-scenes changes to significantly increase the reliability and performance of my blog. Using the power of multiple Raspberry Pis and Cloudflare Argo Tunnels, I&rsquo;ve set up load balancing and redundancy that will keep my blog up and running – even if things go wrong at home.
+The Original Setup
+Let&rsquo;s step back and look at how things started:
+Humble Pi Power: At its heart, my blog is powered by a tiny Raspberry Pi 4 tucked away in the corner of my home office." />
   <meta name="author" content="Aman Agrawal" />
   
 
@@ -135,31 +137,37 @@ if (!doNotTrack) {
 </script>
 
   
-  <meta itemprop="name" content="Cocktails, Friends, Laughter">
-<meta itemprop="description" content="Okay, buckle up, because I have a tale to tell. I, someone who usually orders the simplest possible drink at a bar, recently decided to throw caution to the wind and host a cocktail party. Armed with a shaker, some questionable recipes, and a healthy dose of hope, I embarked on a journey of amateur mixology.
-Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the results may have been more influenced by a steadily-increasing blood alcohol content than genuine cocktail mastery, but who am I to complain?"><meta itemprop="datePublished" content="2024-03-16T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2024-03-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="130">
+  <meta itemprop="name" content="How My Raspberry Pi Blog Stays Online?">
+<meta itemprop="description" content="I recently implemented some behind-the-scenes changes to significantly increase the reliability and performance of my blog. Using the power of multiple Raspberry Pis and Cloudflare Argo Tunnels, I&rsquo;ve set up load balancing and redundancy that will keep my blog up and running – even if things go wrong at home.
+The Original Setup
+Let&rsquo;s step back and look at how things started:
+Humble Pi Power: At its heart, my blog is powered by a tiny Raspberry Pi 4 tucked away in the corner of my home office."><meta itemprop="datePublished" content="2024-03-30T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-03-30T00:00:00+00:00" />
+<meta itemprop="wordCount" content="438">
 <meta itemprop="keywords" content="" />
   
-  <meta property="og:title" content="Cocktails, Friends, Laughter" />
-<meta property="og:description" content="Okay, buckle up, because I have a tale to tell. I, someone who usually orders the simplest possible drink at a bar, recently decided to throw caution to the wind and host a cocktail party. Armed with a shaker, some questionable recipes, and a healthy dose of hope, I embarked on a journey of amateur mixology.
-Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the results may have been more influenced by a steadily-increasing blood alcohol content than genuine cocktail mastery, but who am I to complain?" />
+  <meta property="og:title" content="How My Raspberry Pi Blog Stays Online?" />
+<meta property="og:description" content="I recently implemented some behind-the-scenes changes to significantly increase the reliability and performance of my blog. Using the power of multiple Raspberry Pis and Cloudflare Argo Tunnels, I&rsquo;ve set up load balancing and redundancy that will keep my blog up and running – even if things go wrong at home.
+The Original Setup
+Let&rsquo;s step back and look at how things started:
+Humble Pi Power: At its heart, my blog is powered by a tiny Raspberry Pi 4 tucked away in the corner of my home office." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://aagr.xyz/posts/cocktails-2024-03/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-03-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-03-16T00:00:00+00:00" />
+<meta property="og:url" content="https://aagr.xyz/posts/tech-stack/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-03-30T00:00:00+00:00" />
 
 
   
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Cocktails, Friends, Laughter"/>
-<meta name="twitter:description" content="Okay, buckle up, because I have a tale to tell. I, someone who usually orders the simplest possible drink at a bar, recently decided to throw caution to the wind and host a cocktail party. Armed with a shaker, some questionable recipes, and a healthy dose of hope, I embarked on a journey of amateur mixology.
-Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the results may have been more influenced by a steadily-increasing blood alcohol content than genuine cocktail mastery, but who am I to complain?"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How My Raspberry Pi Blog Stays Online?"/>
+<meta name="twitter:description" content="I recently implemented some behind-the-scenes changes to significantly increase the reliability and performance of my blog. Using the power of multiple Raspberry Pis and Cloudflare Argo Tunnels, I&rsquo;ve set up load balancing and redundancy that will keep my blog up and running – even if things go wrong at home.
+The Original Setup
+Let&rsquo;s step back and look at how things started:
+Humble Pi Power: At its heart, my blog is powered by a tiny Raspberry Pi 4 tucked away in the corner of my home office."/>
 
   
   
   
-  <link rel="canonical" href="https://aagr.xyz/posts/cocktails-2024-03/" />
+  <link rel="canonical" href="https://aagr.xyz/posts/tech-stack/" />
   
   
 </head>
@@ -300,12 +308,12 @@ Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the r
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">Cocktails, Friends, Laughter</h1>
+    <h1 class="!my-0 pb-2.5">How My Raspberry Pi Blog Stays Online?</h1>
 
     
     <div class="text-sm antialiased opacity-60">
       
-      <time>Mar 16, 2024</time>
+      <time>Mar 30, 2024</time>
       
       
       
@@ -314,11 +322,36 @@ Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the r
     
   </header>
 
-  <section><p>Okay, buckle up, because I have a tale to tell.  I, someone who usually orders the simplest possible drink at a bar, recently decided to throw caution to the wind and host a cocktail party. Armed with a shaker, some questionable recipes, and a healthy dose of hope, I embarked on a journey of amateur mixology.</p>
-<p>Here&rsquo;s the thing, it was actually&hellip;a hit?  Let&rsquo;s just say the results may have been more influenced by a steadily-increasing blood alcohol content than genuine cocktail mastery, but who am I to complain?</p>
-<p>Here is the menu I designed and I bought stuff for all of these drinks!</p>
-<p><img src="/2024_pres.png" alt="Pre&rsquo;s Cocktails"></p>
-<p>So, have I unlocked a hidden talent as a master mixologist? Probably not. But did I have a lot of fun pretending? Absolutely. Cheers to that!</p>
+  <section><p>I recently implemented some behind-the-scenes changes to significantly increase the reliability and performance of my blog. Using the power of multiple Raspberry Pis and Cloudflare Argo Tunnels, I&rsquo;ve set up load balancing and redundancy that will keep my blog up and running – even if things go wrong at home.</p>
+<p><strong>The Original Setup</strong></p>
+<p>Let&rsquo;s step back and look at how things started:</p>
+<ul>
+<li><strong>Humble Pi Power:</strong> At its heart, my blog is powered by a tiny Raspberry Pi 4 tucked away in the corner of my home office.</li>
+<li><strong>Markdown + Hugo:</strong> I write posts in the convenient Markdown format. Hugo, a static site generator, transforms the Markdown into HTML files.</li>
+<li><strong>Nginx: The Local Web Server:</strong> The HTML files are served by an Nginx server running on that same Raspberry Pi.</li>
+<li><strong>Cloudflare Argo Tunnels: Secure Access:</strong> Cloudflare Argo Tunnels create a secure connection between my Pi server and Cloudflare&rsquo;s global network, allowing my blog to be publicly accessible without revealing my home IP address.</li>
+</ul>
+<p><strong>The Downtime!</strong></p>
+<p>Everything went smoothly&hellip;until it didn&rsquo;t.  One day I experienced a full 24-hour internet outage from my ISP. With my lone Pi offline, my blog completely disappeared from the web. This was unacceptable!  I needed a way to ensure my blog stayed accessible, even during outages.</p>
+<p><strong>The Redundancy Solution</strong></p>
+<p>The fix involved a few key components:</p>
+<ol>
+<li><strong>Pi #2 Steps In:</strong> Thankfully, I had another Raspberry Pi sitting unused at my parents&rsquo; house. I installed Nginx, cloned my blog repository, and spun up an identical instance.</li>
+<li><strong>Cloudflare Tunnel Teamwork:</strong> Crucially, instead of creating a separate tunnel, I configured the second Pi as a connector for the <em>same</em> Cloudflare Argo Tunnel.</li>
+<li><strong>Smart Load Balancing:</strong> Cloudflare then takes over, intelligently distributing traffic between the two servers based on factors like location and server health.</li>
+<li><strong>Telling Headers:</strong> Each Nginx server adds a special <code>X-Served-From</code> header to outgoing requests, letting me see which Pi handled each visit.</li>
+</ol>
+<p><img src="/tech-stack-architecture.svg" alt="Architecture Diagram"></p>
+<p><strong>Benefits</strong></p>
+<ul>
+<li><strong>Redundancy:</strong> If my home internet goes down, traffic is seamlessly diverted to my parents&rsquo; Pi, and vice versa. No more extended downtime!</li>
+<li><strong>Load Balancing:</strong> Cloudflare automatically optimizes traffic, ensuring visitors have a smooth experience no matter where they&rsquo;re connecting from.</li>
+<li><strong>Affordability:</strong> This was achieved without expensive hardware or complex infrastructure.</li>
+</ul>
+<p><strong>Beyond the Basics</strong></p>
+<p>I&rsquo;m considering further optimization in the future. Maybe  I&rsquo;ll add a third Pi at a friend&rsquo;s house for even more redundancy. The possibilities are exciting!</p>
+<p><strong>Want to try something similar?</strong>  If you&rsquo;re looking to add robustness to your own self-hosted project, it&rsquo;s worth looking into Cloudflare Argo Tunnels and load balancing strategies.</p>
+<p>Let me know in the comments if you have any questions or have implemented similar setups yourself!</p>
 </section>
 
   
@@ -330,17 +363,11 @@ Here&rsquo;s the thing, it was actually&hellip;a hit? Let&rsquo;s just say the r
   
   <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
     
-    <a
-      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://aagr.xyz/posts/tech-stack/"
-      ><span class="mr-1.5">←</span><span>How My Raspberry Pi Blog Stays Online?</span></a
-    >
-    
     
     <a
       class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
-      href="https://aagr.xyz/posts/first-post/"
-      ><span>A new hobby!</span><span class="ml-1.5">→</span></a
+      href="https://aagr.xyz/posts/cocktails-2024-03/"
+      ><span>Cocktails, Friends, Laughter</span><span class="ml-1.5">→</span></a
     >
     
   </nav>

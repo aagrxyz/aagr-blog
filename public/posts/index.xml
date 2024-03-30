@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2023-, Aman Agrawal; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://aagr.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How My Raspberry Pi Blog Stays Online?</title>
+      <link>https://aagr.xyz/posts/tech-stack/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://aagr.xyz/posts/tech-stack/</guid>
+      <description>I recently implemented some behind-the-scenes changes to significantly increase the reliability and performance of my blog. Using the power of multiple Raspberry Pis and Cloudflare Argo Tunnels, I&amp;rsquo;ve set up load balancing and redundancy that will keep my blog up and running – even if things go wrong at home.&#xA;The Original Setup&#xA;Let&amp;rsquo;s step back and look at how things started:&#xA;Humble Pi Power: At its heart, my blog is powered by a tiny Raspberry Pi 4 tucked away in the corner of my home office.</description>
+    </item>
     <item>
       <title>Cocktails, Friends, Laughter</title>
       <link>https://aagr.xyz/posts/cocktails-2024-03/</link>
