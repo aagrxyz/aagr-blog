@@ -2,7 +2,7 @@
 FROM alpine:latest AS build
 
 # Install the Hugo go app.
-RUN doas apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
+RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community hugo
 
 WORKDIR /opt/HugoApp
 
