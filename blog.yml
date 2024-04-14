@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: blog
+  labels:
+    app: blog
+spec:
+  containers:
+    - name: blog
+      env:
+        - name: TZ
+          value: Europe/London
+      image: ghcr.io/aagrxyz/aagr-blog:main
+  restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: blog-svc
+spec:
+  type: ClusterIP
+  selector:
+    app: blog
+  ports:
+    - port: 80
+---    
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: blog-http
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
+    traefik.ingress.kubernetes.io/router.tls.certresolver: letsEncrypt
+    traefik.ingress.kubernetes.io/router.tls.domains.0.main: blog.n100.aagr.xyz
+    traefik.ingress.kubernetes.io/router.middlewares: chain-no-auth-external@file
+spec:
+  rules:
+    - host: blog.n100.aagr.xyz
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: blog-svc
+                port:
+                  number: 80
+---
