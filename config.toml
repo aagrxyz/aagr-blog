@@ -16,10 +16,8 @@ title = "aagr"
 [params]
   color = 'linen'
 
-  # twitter = 'nanxiaobei'
   github = 'aagrxyz'
   linkedin = 'aagrxyz'
-  # instagram = 'nan.xiaobei'
 
   avatar = 'https://aagr.xyz/me.jpg'
   name = 'Aman Agrawal'
