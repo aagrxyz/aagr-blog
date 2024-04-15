@@ -32,11 +32,11 @@ metadata:
     traefik.ingress.kubernetes.io/router.entrypoints: websecure
     traefik.ingress.kubernetes.io/router.tls: "true"
     traefik.ingress.kubernetes.io/router.tls.certresolver: letsEncrypt
-    traefik.ingress.kubernetes.io/router.tls.domains.0.main: blog.n100.aagr.xyz
+    traefik.ingress.kubernetes.io/router.tls.domains.0.main: blog.in.aagr.xyz
     traefik.ingress.kubernetes.io/router.middlewares: chain-no-auth-external@file
 spec:
   rules:
-    - host: blog.n100.aagr.xyz
+    - host: blog.in.aagr.xyz
       http:
         paths:
           - path: /
