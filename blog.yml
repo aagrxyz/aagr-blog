@@ -27,6 +27,7 @@ spec:
             - name: TZ
               value: Europe/London
           image: ghcr.io/aagrxyz/aagr-blog:main
+          imagePullPolicy: Always
       restartPolicy: Always
 ---
 apiVersion: v1

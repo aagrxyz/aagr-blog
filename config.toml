@@ -49,6 +49,7 @@ tag = "tags"
 series = "series"
 
 [privacy]
+
   [privacy.vimeo]
     disabled = false
     simple = true
