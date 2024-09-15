@@ -1,16 +1,13 @@
 baseURL = "https://aagr.xyz/"
 author = "Aman Agrawal"
 copyright = "Copyright © 2023-, Aman Agrawal; all rights reserved."
-
+paginate = 20
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
-
-[pagination]
-  pagerSize = 20
 
 theme = "paper"
 title = "aagr"
