@@ -1,7 +1,7 @@
 baseURL = "https://aagr.xyz/"
 author = "Aman Agrawal"
 copyright = "Copyright © 2023-, Aman Agrawal; all rights reserved."
-paginate = 3
+
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -9,23 +9,21 @@ enableInlineShortcodes = true
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 
-# ------------------------------
+[pagination]
+  pagerSize = 20
+
 theme = "paper"
 title = "aagr"
 
 [params]
   color = 'linen'
-
   github = 'aagrxyz'
   linkedin = 'aagrxyz'
-
   avatar = 'https://aagr.xyz/me.jpg'
   name = 'Aman Agrawal'
   rss = true
   bio = '👋 Welcome to my blog!'
-# ------------------------------
 
-# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -34,7 +32,6 @@ title = "aagr"
 #    lineNos = true
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "About"
@@ -52,7 +49,6 @@ tag = "tags"
 series = "series"
 
 [privacy]
-
   [privacy.vimeo]
     disabled = false
     simple = true
