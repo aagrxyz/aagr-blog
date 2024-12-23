@@ -8,6 +8,7 @@ PROJECT_DIR="/home/aman/aagr-blog"
 cd "$PROJECT_DIR" || { echo "Failed to navigate to project directory."; exit 1; }
 
 # Pull the latest changes from GitHub
+date
 echo "Pulling latest changes from GitHub..."
 git fetch origin
 LOCAL_HASH=$(git rev-parse HEAD)
